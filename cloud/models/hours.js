@@ -1,4 +1,4 @@
-var _ = require('underscore');
+var _ = require('../vendor/underscore');
 
 var days = {
   SUN: 0,

@@ -1,4 +1,4 @@
-var _     = require('underscore'),
+var _     = require('../vendor/underscore'),
     Hours = require('../models/hours'),
     Service = require('../models/service'),
     CATEGORIES = require('../lib/categories');
