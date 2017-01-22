@@ -1,4 +1,4 @@
-var Hours = require('cloud/models/hours');
+var Hours = require('../models/hours');
 
 module.exports = Parse.Object.extend('Service', {
   hours: function() {

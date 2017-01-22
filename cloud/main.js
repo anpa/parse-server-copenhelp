@@ -1,6 +1,6 @@
-var findByFilter = require('../lib/find_by_filter'),
-    findById = require('../lib/find_by_id'),
-    feedback = require('../lib/feedback');
+var findByFilter = require('./lib/find_by_filter'),
+    findById = require('./lib/find_by_id'),
+    feedback = require('./lib/feedback');
 
 Parse.Cloud.define('findByFilter', function(request, response) {
   findByFilter(request.params, response);
